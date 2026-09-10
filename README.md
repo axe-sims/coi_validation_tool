@@ -19,6 +19,8 @@ coi_validation_tool/
 
 ## 1. Preparing Environment
 
+Make sure to run the commands inside the `coi_validation_tool/` directory:
+
 ```bash
 conda env create -f environment.yml
 conda activate coxi_pipeline
@@ -31,8 +33,6 @@ chmod +x classify_coi.sh
 ```
 
 ## 3. Run Tool
-
-Run the tool inside the `coi_validation_tool/` directory:
 
 ```bash
 ./classify_coi.sh <input_fasta.gz> <output_predictions.csv.gz>
